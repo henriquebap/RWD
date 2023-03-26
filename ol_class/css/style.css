@@ -1,0 +1,110 @@
+.menuV{
+    border:1px solid #000;
+    width: 150px;
+    background-color: aqua;
+}
+.menuV ul{
+    list-style-type: none;
+    margin: 0; /*margem Externa*/
+    padding: 0;/*margem interna do elemento*/
+}
+.menuV ul li{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #000;
+}
+.menuV ul li a{
+    text-decoration: none;
+    padding-left: 15px;
+    border-left: 8px solid green;
+    text-decoration-color: #000;
+    display: block;
+    color: #000;
+}
+.menuV ul li a:hover{
+    background: green;
+    border-left: 8px solid aqua;
+    color: #000;
+}
+.menuV ul li a:last-child{
+    border-bottom: 0;
+}
+.menuH{
+    border: 2px solid #000;
+    width: auto;
+    background-color: chartreuse;
+}
+.menuH{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.backgorundpd{
+    /*
+    background-image:url("../img/bobsponja.png");
+    background-repeat: repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    */
+    background-color: #000;
+}
+.manuH ul{
+    display: flex;
+}
+.menuH ul li{
+    width: 140px;
+    border-left: 0px solid #000;
+}
+.menu ul li a:hover{
+    border-left: 8px solid aqua;
+}
+.menuH ul li:first-child{
+    border-left: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center; /* centraliza os itens horizontalmente */
+    height: 100%; /* definir altura para ocupar toda a tela */
+}
+.link{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center; /* centraliza os itens horizontalmente */
+    height: 100%; /* definir altura para ocupar toda a tela */
+}
+.link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 4px;
+    scale: 0 1;
+    transform-origin: right;
+    transition: scale 0.25s;
+}
+.link:hover::before{
+    scale: 1;
+    transform-origin: left;
+}
+.link ul li a{
+    text-decoration: none; /* remove o sublinhado do link */
+    color: whitesmoke; /* define a cor do texto do link como preto */
+
+}
+#bcklogin{
+    background-image:url(../img/bobsponja.png);
+}

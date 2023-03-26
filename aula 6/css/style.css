@@ -1,0 +1,6 @@
+body{
+    background-image:url("../img/back.jpeg") ;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}

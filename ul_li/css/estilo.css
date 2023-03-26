@@ -1,0 +1,49 @@
+#menuV, #menuH{
+    border:1px solid #000;
+    width:150px;
+    background-color: #f00;
+}
+
+#menuH{
+    width:840px;
+    background-color: aqua;
+}
+
+#menuV ul, #menuH ul{
+    list-style-type: none;
+    margin:0; /* margem externa do elemento UL */
+    padding:0; /* margem interna do elemento UL */
+}
+#menuH ul{
+    display: flex;
+}
+#menuH ul li{
+    width: 140px;
+    border-left: 1px solid #000;
+}
+#menuV ul li{
+    height: 30px;
+    line-height: 30px;
+    border-bottom:1px solid #000 ;
+}
+#menuV ul li a, #menuH ul li a{
+    text-decoration: none;
+    padding-left:15px;
+    border-left: 8px solid green;
+    display: block;
+    color:floralwhite;
+}
+#menuV ul li a:hover,#menuH ul li a:hover{ /* hover => Hand OVER */
+    background:yellow;
+    border-left: 8px solid #f00;
+    color:#000
+}
+#menuH ul li a:hover{
+    border-left: 8px solid #fff;
+}
+#menuV ul li:last-child{
+    border-bottom:0;
+}
+#menuH ul li:first-child{
+    border-left:0;
+}

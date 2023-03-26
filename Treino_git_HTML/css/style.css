@@ -1,0 +1,20 @@
+#indexbody{
+    background-color: rgb(154, 103, 103);
+}
+.whiteletters{
+    color: white;
+}
+#page2body{
+    background-color: rgb(91, 253, 253);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.redtitle{
+    color: red;
+}
+.superblackletter{
+    color: rgb(0, 0, 0);
+    font-style: oblique, unset;
+}
+#backgorundcolorpag3{
+    background-color: rgba(229, 232, 25, 0.612);
+}
