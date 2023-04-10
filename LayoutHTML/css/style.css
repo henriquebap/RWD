@@ -1,0 +1,43 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+#wrapper{
+    width: 1100px;
+    height: 3000px;
+    background-color: brown;
+}
+header{
+    height: 180px;
+    background-color: chartreuse;
+}
+#login{
+    height: 20px;
+    background-color: cornsilk;
+    text-align: right;
+    line-height: 20px;
+}
+#carroussel{
+    margin-top: 20px;
+    height: 500px;
+    background-color: blue;
+}
+.produto{
+    width: 353px;
+    height: 353px;
+    background-color: rgb(68, 68, 68);
+    margin: 20px 0px 0px 20px;
+    float: left;
+}
+.produto:nth-child(3),
+.produto:nth-child(6),
+.produto:nth-child(9){
+    margin-left: 0px;
+}
+footer{
+    height: 400px;
+    width: 1100px;
+    background-color: rgb(220, 190, 20);
+    float: left;
+    margin-top: 20px;
+}
