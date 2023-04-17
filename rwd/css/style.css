@@ -40,7 +40,7 @@
     .produto:nth-child(1),
     .produto:nth-child(4),
     .produto:nth-child(7) {
-        margin-left:00px
+        margin-left:00px;
     }
 
     footer {
@@ -48,5 +48,28 @@
         width: 1100px;
         background-color: crimson;
         clear: both;
+    }
+    .produto img{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        height: 300px;
+        width: 353px;
+    }
+    .button{
+        justify-content: center;
+        align-items: center;
+        transition: all .6s ease-out;
+        height: 10px;
+        width: 35px;
+    }
+    .cart{
+        justify-content: center;
+    }
+    .backbutton:hover,
+    .backbutton:focus{
+        outline-offset: 3px;
+    }
+    .backbutton:is(:hover, :focus){
+        outline-offset: 3px;
     }
 }
