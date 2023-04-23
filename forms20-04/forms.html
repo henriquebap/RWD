@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form name="frmCadastro" action="login.html" method="get">
+        
+        <label for="txtNomeCompleto">Nome Completo:</label>
+        <input type="text" name="txtNomeCompleto" id="txtNomeCompleto" required>
+        <br>
+        <label for="txtEndereco">
+            Endereço: <input type="text" name="txtEndereco" id="txtEndereco">
+        </label>
+        <br>
+        <label for="txtCPF">CPF:</label><input type="text" name="txtCPF" id="txtCPF" maxlength="14" placeholder="Somente números">
+        <br>
+        <label for="txtFilhos">Filhos:</label>
+        <input type="number" name="txtFilhos" id="txtFilhos" min="0" max="15">
+        <br>
+        <label for="txtDataNasc">Data de Nascimento (Date)</label>
+        <input type="date" name="txtDataNasc" id="txtDataNasc" min="2000-01-01" max="2023-04-20">
+
+        <br>
+        <label for="txtDataNasc">Data de Nascimento (datetime-local)</label>
+        <input type="datetime-local" name="txtDataNasc" id="txtDataNasc" min="2000-01-01" max="2023-04-20">
+
+        <br>
+        <label for="txtEmail">E-Mail:</label>
+        <input type="email" name="txtEmail" id="txtEmail" required>
+
+        <br>
+
+        <input type="submit">
+
+
+    </form>
+
+
+
+
+</body>
+</html>

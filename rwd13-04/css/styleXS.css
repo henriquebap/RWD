@@ -1,0 +1,45 @@
+/* eXtra Small devices (portrait tablets and large phones, 600px and down) */
+@media(max-width: 600px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+    #wrapper {
+        width: 100%;
+        background-color:coral;
+    }
+    .row{
+        width: 90%;
+    }
+    header {
+        height: 100px;
+        background-color: chartreuse;
+    }
+    #login {
+        height: 30px;
+        line-height: 30px;
+        background-color: burlywood;
+        text-align: right;
+        font-size: 12px;
+        font-family: arial;
+    }
+    #carroussel {
+        height: 200px;
+        background-color: blueviolet;
+        margin-top: 10px;
+        display: none;
+    }
+    .produto {
+        width: 100%;
+        height: 250px;
+        background-color: chocolate;
+        margin-top: 10px;
+        /* top right bottom left */
+    }
+    footer {
+        height: 400px;
+        width: 100%;
+        margin-top:10px;
+        background-color: crimson;
+    }
+}

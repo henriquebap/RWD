@@ -1,0 +1,58 @@
+/* SMall devices (portrait tablets and large phones, 600px and up) */
+@media(min-width: 600px) and (max-width: 768px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+    #wrapper {
+        width: 100%;
+        background-color:darkviolet;
+    }
+    .row{
+        width: 90%;
+    }
+    header {
+        height: 100px;
+        background-color: chartreuse;
+    }
+    #login {
+        height: 30px;
+        line-height: 30px;
+        background-color: burlywood;
+        text-align: right;
+        font-size: 12px;
+        font-family: arial;
+    }
+    #carroussel {
+        height: 200px;
+        background-color: blueviolet;
+        margin-top: 10px;
+        display: none;
+    }
+    .produto {
+        width: calc(50% - 10px);
+        height: 250px;
+        background-color: chocolate;
+        margin-top: 10px;
+        margin-right:10px;
+        float:left;
+        /* top right bottom left */
+    }
+    .produto:nth-child(2),
+    .produto:nth-child(4),
+    .produto:nth-child(6),
+    .produto:nth-child(8){
+        margin-right: 0;
+        width: 50%;
+    }
+    .produto:nth-child(9){
+        display: none;
+    }
+    footer {
+        height: 400px;
+        width: 100%;
+        margin-top:10px;
+        background-color: crimson;
+        clear: both;
+    }
+}
