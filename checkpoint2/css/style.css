@@ -1,0 +1,397 @@
+body{
+    background-color: black;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.elementos1{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    margin-bottom: 0px;
+}
+.elemento{
+    color: #ccc;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao{
+    text-align: center;
+    color: #ccc;
+    font-size: x-small;
+    height: 15px;
+}
+.numero{
+    color:#ccc;
+    min-height: 10px;
+    height: 7px;
+}
+.massa{
+    color: #ccc;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
+.familia1{
+    margin: 0px 0px 0px 20px
+}
+.familia2{
+    margin: -492px 0px 0px 102px
+}
+.familia3{
+    margin: -328px 0px 0px 183px
+}
+.familia4{
+    margin: -328px 0px 0px 265px
+}
+.familia5{
+    margin: -492px 0px 0px 347px;
+}
+.familia6{
+    margin: -492px 0px 0px 429px;
+
+}
+.familia7{
+    margin: -492px 0px 0px 511px;
+
+}
+.familia8{
+    margin: -492px 0px 0px 592px;
+
+}
+.familia9{
+    margin: -492px 0px 0px 674px;
+
+}
+.familia10{
+    margin: -492px 0px 0px 756px;
+
+}
+.familia11{
+
+}
+.familia12{
+
+}
+.elementos2{
+    width: 80px;
+    height: 80px;
+    border: 1px solid green;
+    margin-bottom: 0px;
+}
+.elemento2{
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao2{
+    text-align: center;
+    color: green;
+    font-size: x-small;
+    height: 15px;
+}
+.numero2{
+    color:green;
+    min-height: 10px;
+    height: 7px;
+}
+.massa2{
+    color: green;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
+.elementos3{
+    width: 80px;
+    height: 80px;
+    border: 1px solid blue;
+    margin-bottom: 0px;
+}
+.elemento3{
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao3{
+    text-align: center;
+    color: blue;
+    font-size: x-small;
+    height: 15px;
+}
+.numero3{
+    color:blue;
+    min-height: 10px;
+    height: 7px;
+}
+.massa3{
+    color: blue;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
+.elementos4{
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+    margin-bottom: 0px;
+}
+.elemento4{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao4{
+    text-align: center;
+    color: red;
+    font-size: x-small;
+    height: 15px;
+}
+.numero4{
+    color:red;
+    min-height: 10px;
+    height: 7px;
+}
+.massa4{
+    color: red;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
+.elementos5{
+    width: 80px;
+    height: 80px;
+    border: 1px solid yellow;
+    margin-bottom: 0px;
+}
+.elemento5{
+    color: yellow;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao5{
+    text-align: center;
+    color: yellow;
+    font-size: x-small;
+    height: 15px;
+}
+.numero5{
+    color:yellow;
+    min-height: 10px;
+    height: 7px;
+}
+.massa5{
+    color: yellow;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
+.elementos6{
+    width: 80px;
+    height: 80px;
+    border: 1px solid orange;
+    margin-bottom: 0px;
+}
+.elemento6{
+    color: orange;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao6{
+    text-align: center;
+    color: orange;
+    font-size: x-small;
+    height: 15px;
+}
+.numero6{
+    color:orange;
+    min-height: 10px;
+    height: 7px;
+}
+.massa6{
+    color: orange;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
+.elementos7{
+    width: 80px;
+    height: 80px;
+    border: 1px solid green;
+    margin-bottom: 0px;
+}
+.elemento7{
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao7{
+    text-align: center;
+    color: green;
+    font-size: x-small;
+    height: 15px;
+}
+.numero7{
+    color:green;
+    min-height: 10px;
+    height: 7px;
+}
+.massa7{
+    color: green;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
+.elementos8{
+    width: 80px;
+    height: 80px;
+    border: 1px solid green;
+    margin-bottom: 0px;
+}
+.elemento8{
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao8{
+    text-align: center;
+    color: green;
+    font-size: x-small;
+    height: 15px;
+}
+.numero8{
+    color:green;
+    min-height: 10px;
+    height: 7px;
+}
+.massa8{
+    color: green;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
+.elementos9{
+    width: 80px;
+    height: 80px;
+    border: 1px solid green;
+    margin-bottom: 0px;
+}
+.elemento9{
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao9{
+    text-align: center;
+    color: green;
+    font-size: x-small;
+    height: 15px;
+}
+.numero9{
+    color:green;
+    min-height: 10px;
+    height: 7px;
+}
+.massa9{
+    color: green;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
+.elementos10{
+    width: 80px;
+    height: 80px;
+    border: 1px solid green;
+    margin-bottom: 0px;
+}
+.elemento10{
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao10{
+    text-align: center;
+    color: green;
+    font-size: x-small;
+    height: 15px;
+}
+.numero10{
+    color:green;
+    min-height: 10px;
+    height: 7px;
+}
+.massa10{
+    color: green;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
+.elementos11{
+    width: 80px;
+    height: 80px;
+    border: 1px solid green;
+    margin-bottom: 0px;
+}
+.elemento11{
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao11{
+    text-align: center;
+    color: green;
+    font-size: x-small;
+    height: 15px;
+}
+.numero11{
+    color:green;
+    min-height: 10px;
+    height: 7px;
+}
+.massa12{
+    color: green;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
+.elementos12{
+    width: 80px;
+    height: 80px;
+    border: 1px solid green;
+    margin-bottom: 0px;
+}
+.elemento12{
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+}
+.descricao12{
+    text-align: center;
+    color: green;
+    font-size: x-small;
+    height: 15px;
+}
+.numero12{
+    color:green;
+    min-height: 10px;
+    height: 7px;
+}
+.massa12{
+    color: green;
+    text-align: center;
+    font-size: xx-small;
+    height: 10px;
+}
