@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Forms Entrada simples-->
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem"></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+      </form>
+      <br>
+    <!-- Forms option Selections pre-defined itens -->
+    <br>
+    <form>
+        <label for="frutas">Escolha sua fruta favorita:</label>
+        <select id="frutas" name="frutas">
+          <option value="maca">Maçã</option>
+          <option value="banana">Banana</option>
+          <option value="laranja">Laranja</option>
+          <option value="uva">Uva</option>
+        </select><br><br>
+        
+        <input type="submit" value="Enviar">
+      </form>
+      <br>
+      <br>
+
+    <!-- Forms button option Selections pre-defined itens -->
+
+      <form>
+        <label for="sexo">Escolha seu sexo:</label><br>
+        <input type="radio" id="sexo-m" name="sexo" value="masculino">
+        <label for="sexo-m">Masculino</label><br>
+        <input type="radio" id="sexo-f" name="sexo" value="feminino">
+        <label for="sexo-f">Feminino</label><br><br>
+        
+        <input type="submit" value="Enviar">
+      </form>
+      <br>
+      <br>
+    <!-- Forms multiple selections pre-defined itens -->
+
+      <form>
+        <label for="cores">Escolha suas cores favoritas:</label><br>
+        <select id="cores" name="cores" multiple>
+          <option value="vermelho">Vermelho</option>
+          <option value="azul">Azul</option>
+          <option value="verde">Verde</option>
+          <option value="amarelo">Amarelo</option>
+        </select><br><br>
+        
+        <input type="submit" value="Enviar">
+      </form>
+      <br><br>
+      <br>
+    <h1 id="titulo">Título</h1>
+    <p id="paragrafo">Este é um parágrafo.</p>
+    <button onclick="mudarTitulo()">Mudar Título</button>
+
+    <script>
+        function mudarTitulo() {
+        var titulo = document.getElementById("titulo");
+        titulo.innerHTML = "Novo Título";
+        }
+    </script>
+</body>
+</html>
