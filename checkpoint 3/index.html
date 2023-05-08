@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h3>
+            Chekpoint 3
+        </h3>
+    </header>
+        <main>
+        <body>
+            <h1 id="titulo">Formulario de Cadastro</h1>
+
+            <!--LINHA 1-->
+            <div class="linha-pagina">
+                <!--CONTAINER 1-->
+                <fieldset class="container">
+                    <legend>Identificação:</legend>
+                    <!-- LINHA 1-->
+                    <div class="linha-container">
+                        <div class="conteudo-linha">
+                            <label for="idNomeCompleto">Nome Completo:</label>
+                            <input type ="text" id="idNomeCompleto" name="idNomeCompleto">
+                        </div>
+                    </div>
+
+                    <!-- LINHA 2 -->
+                    <div class="linha-container">
+                        <div class="conteudo-linha">
+                            <label for="idRG">RG:</label>
+                            <input type="text" id="idRG" name="idRG">
+                        </div>
+
+                        <div class="conteudo-linha">
+                            <label for="idCPF">CPF:</label>
+                            <input type="text" id="idCPF" name="idCPF">
+                        </div>
+                    </div>
+
+                     
+                    <!-- LINHA 3 -->
+                    <div class="linha-container">
+                        <div class="conteudo-linha">
+                            <label for="idData">Data Nascimento:</label>
+                            <input type="date" id="idData" name="idData">
+                        </div>
+    
+                        <div class="conteudo-linha">
+                            <label>Sexo:</label>
+                            <div id="sexos">
+                                <label for="idMasculino">Masculino: </label>
+                                <input type="radio" id="idMasculino" name="sexo" value="Masculinio">
+                                <label for="idFeminino">Feminino: </label>
+                                <input type="radio" id="idFeminino" name="sexo" value="Feminino">
+                                <label for="idOutros">Outros: </label>
+                                <input type="radio" id="idOutros" name="sexo" value="Outros">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- LINHA 4 -->
+                    <div class="linha-container">
+                        <div class="conteudo-linha">
+                            <label for="idSenha">Senha:</label>
+                            <input type="password" id="idSenha" name="idSenha">
+                        </div>
+    
+                        <div class="conteudo-linha">
+                            <label for="idConfimacao">Confirmar Senha:</label>
+                            <input type="password" id="idConfimacao" name="idConfimacao">
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <fieldset class="container" id="foto">
+                    <legend>Fotografia</legend>
+                    <div class="linha-container">
+                        <button>Enviar Foto</button>
+                    </div>
+                </fieldset>
+            </div>
+
+            <!-- LINHA 2 -->
+            <div class="linha-pagina">
+                <!--CONTAINER 1-->
+                <fieldset class="container">
+                    <legend>Endereço:</legend>
+                    <!-- LINHA 1-->
+                    <div class="linha-container">
+                        <div class="conteudo-linha">
+                            <label for="idRua">Rua:</label>
+                            <input type ="text" id="idRua" name="idRua">
+                        </div>
+                        <div class="conteudo-linha">
+                            <label for="idNumero">Numero:</label>
+                            <input type ="number" id="idNumero" name="idNumero">
+                        </div>
+                        <div class="conteudo-linha">
+                            <label for="idComplemento">Complemento:</label>
+                            <input type ="text" id="idComplemento" name="idComplemento">
+                        </div>
+                    </div>
+
+                    <!-- LINHA 2 -->
+                    <div class="linha-container">
+                        <div class="conteudo-linha">
+                            <label for="=idBairro">Bairro:</label>
+                            <input type="text" id="=idBairro" name="=idBairro">
+                        </div>
+
+                        <div class="conteudo-linha">
+                            <label for="idCidade">Cidade:</label>
+                            <input type="text" id="idCidade" name="idCidade">
+                        </div>
+
+                        <div class="conteudo-linha">
+                            <label for="idEstado">Estado:</label>
+                            <select id="idEstado" name="idEstado">
+                                <option value="" disabled selected>Selecione seu Estado: </option>
+                                <option value="SP">São Paulo</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="BH">Belo Horizonte</option>
+                            </select>
+                        </div>
+
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="linha-pagina">
+                <!--CONTAINER 1-->
+                <fieldset class="container">
+                    <legend>Diversos:</legend>
+                    <!-- LINHA 1-->
+                    <div class="linha-container">
+                        <fieldset class="caixa">
+                            <legend class="titulo-caixa">Áreas de Interesse</legend>
+                            <div class="conteudo-caixa">
+                                <label for="idTecnologia">Tecnologia</label>
+                                <input type="checkbox" id="idTecnologia" name="idCheckbox" value="Tecnologia" />
+
+                                <label for="idEsportes">Esportes</label>
+                                <input type="checkbox" id="idEsportes" name="idCheckbox" value="Esportes" />
+
+                                <label for="idOutros">Outros</label>
+                                <input type="checkbox" id="idOutros" name="idCheckbox" value="Outros" />
+                            </div>
+                        </fieldset>
+                        <fieldset class="caixa">
+                            <legend class="titulo-caixa">Cor de Preferencia</legend>
+                            <div class = "conteudo-caixa">
+                                <input type="color" />
+                            </div>
+                        </fieldset>
+                    </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="botoes">
+                <button id="enviar">Enviar</button>
+                <button id="cancelar">Cancelar</button>
+            </div>
+            
+        </body>
+        <footer>
+            <p>Henrique Baptista | RM: 97796</p>
+            <p>Pedro C. Pacheco | RM: 98043</p>
+        </footer>
+    </main>
+</body>
+</html>

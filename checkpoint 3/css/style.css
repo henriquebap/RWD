@@ -1,0 +1,127 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    justify-content: left;
+    width: 630px;
+    background-color: red;
+}
+
+header h3{
+    color: white;
+    margin-left: 10px;
+}
+
+main{
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+}
+
+h1{
+    border-left: 2px red solid;
+    border-bottom: 2px red solid;
+    padding: 5px;
+}
+
+.linha-pagina{
+    display: flex;
+    flex-direction: row;
+    gap:  50px;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px red solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.linha-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.conteudo-linha{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px red solid;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.conteudo-caixa{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.titulo-caixa{
+    font-size: 12px;
+}
+
+#foto{
+    align-items: center;
+    justify-content: center;
+}
+
+#sexos{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    margin: 0px;
+    height: -10px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 5px;
+}
+
+.botoes button{
+    color: white;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 10px;
+    justify-content: left;
+    width: 630px;
+    background-color: red;
+}
+
+footer p{
+    color: white;
+    margin-left: 10px;
+}
+
+#enviar{
+    background-color: green;
+}
+
+#cancelar{
+    background-color: red;
+}
