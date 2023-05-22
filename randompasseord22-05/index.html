@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="length"> Tamanho da Senha: </label>
+    <form (ngSubmit)="onSubmit()" #form="ngForm">
+    <input type = "number" id ="length" name = "length" value="10"
+    min="8" max = "30">
+    <br>
+    <input type="checkbox" id ="upper">
+    <label for ="upper">Maiusculas</label>
+    <br>
+    <input type="checkbox" id ="lower">
+    <label for ="lower">Minusculas</label>
+    <br>
+    <input type="checkbox" id ="number">
+    <label for ="number">Numero</label>
+    <br>
+    <input type="checkbox" id ="symbols">
+    <label for ="symbols">Simbolo</label>
+    <br>
+    <button id = "generate"> Gerar Senha</button>
+    </form>
+    <div id ="pw">Nova Sneha: </div>
+    <script scr ="js/script.js"></script>
+</body>
+</html>
