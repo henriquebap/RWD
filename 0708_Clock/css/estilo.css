@@ -62,3 +62,74 @@ body{
     -webkit-transform: rotate(30deg);
     -moz-transform: rotate(30deg);
 }
+
+.outer-clock-face .marking.marking-ten{
+    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+}
+
+.outer-clock-face .marking.marking-twenty{
+    transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+}
+
+.outer-clock-face .marking.marking-twenty-five{
+    transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+}
+
+.inner-clock-face{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background: #282828;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.inner-clock-face::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    background: #4d4b63;
+    border-radius: 100%;
+    z-index: 11;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+.hand{
+    width: 50%;
+    height: 6px;
+    top:50%;
+    right: 50%;
+    position: absolute;
+    background: #61afff;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition-timing-function: cubic-bezier(0.1,2.7,0.58,1);
+}
+
+.hand.hour-hand{
+    width: 30%;
+    z-index: 3;
+}
+.hand.min-hand{
+    height: 3px;
+    width: 40%;
+    z-index: 10;
+}
+.hand.second-hand{
+    height: 2px;
+    width: 45%;
+    z-index: 13;
+    background: #ee7455;
+}
