@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default function App(){
+  let parag = {
+    textAling: 'center',
+    color: '#000',
+    fontSize: '100rem'
+  }
+  return(
+    <>
+      <h1 class='seila'>"Hello World"</h1>
+      <h2 style={{fontSize:'0.00000001em'}}>alo</h2>
+      <p style={ parag }>Sono</p>
+    </>
+  )
 }
-
-export default App;
