@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pagina Inicial</title>
+</head>
+<body>
+  <h2>Criar Partida</h2>
+  <form>
+    <div class="linha-form">
+      <label>Equipe Casa:</label>
+      <input placeholder="Equipe Casa" name="equipeCasa" id="equipeCasa" type="text">
+    </div>
+    <div class="linha-form">
+      <label>Equipe Fora:</label>
+      <input placeholder="Equipe Fora" name="equipeFora" id="equipeFora" type="text">
+    </div>
+    <div class="linha-form">
+      <label>Arbitro:</label>
+      <input placeholder="Arbitro" name="arbitro" id="arbitro" type="text">
+    </div>
+    <button class="enviar" type="submit">Enviar</button>
+  </form>
+  <div class="partidas" id="partidas">
+    <h2>Partidas Criadas</h2>
+    <div class="partida">
+      <h3>Partida ${id}</h3>
+      <div class="info">
+        <p><span>Equipe Casa:</span> ${equipeCasa}</p>
+        <p><span>Equipe Fora:</span> ${equipeFora}</p>
+        <p><span>Arbitro:</span> ${arbitro}</p>
+      </div>
+      <div class="scores">
+        <p><span>Sets Casa:</span> ${setsCasa}</p>
+        <p><span>Sets Fora:</span> ${setsFora}</p>
+        <p><span>Pontos Atuais Casa:</span> ${pontosCasa}</p>
+        <p><span>Pontos Atuais Fora:</span> ${pontosFora}</p>
+      </div>
+    </div>
+  
+    <div class="partida">
+      <h3>Partida ${id}</h3>
+      <div class="info">
+        <p><span>Equipe Casa:</span> ${equipeCasa}</p>
+        <p><span>Equipe Fora:</span> ${equipeFora}</p>
+        <p><span>Arbitro:</span> ${arbitro}</p>
+      </div>
+      <div class="scores">
+        <p><span>Sets Casa:</span> ${setsCasa}</p>
+        <p><span>Sets Fora:</span> ${setsFora}</p>
+        <p><span>Pontos Atuais Casa:</span> ${pontosCasa}</p>
+        <p><span>Pontos Atuais Fora:</span> ${pontosFora}</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
